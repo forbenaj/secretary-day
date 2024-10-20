@@ -1,0 +1,38 @@
+<!--
+    Welcome, and happy Secretary Day!
+    Hopefully you started here, so let’s go through the code in order to understand it.
+
+    This index.html file only loads the basics: jQuery*, the stylesheet, and the scripts to initialize the interface.
+
+    The entire code is PACKED with notes and comments, so we can remove them as they become unnecessary.
+
+    Start with [startup.js]
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery/jquery-3.5.1.min.js"></script>  <!-- *(I think we can remove jQuery to simplify, because it's hardly used) -->
+    <script src="jquery/jquery-ui.min.js"></script>
+    <script src="jquery/jquery.ui.touch-punch.min.js"></script>
+    <link rel="stylesheet" href="jquery/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Here!!! -->
+    
+    <script src="system/startup.js"></script>
+    <script src="system/desktop.js"></script>
+    <script src="system/program.js"></script>
+
+    <script src="main.js"></script>
+
+    <title>Secretary Day</title>
+</head>
+
+<body onload="onStartup()">
+
+</body>
+
+</html>

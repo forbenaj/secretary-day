@@ -1,0 +1,130 @@
+  body{
+    background-color: teal;
+  }
+  /*#Creator {
+    display: flex;
+    flex-direction: row;
+  }*/
+
+  .container-vertical {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .container-horizontal {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #Creator .window {
+    margin: 15px;
+  }
+
+  #treeview{
+    width:250px;
+  }
+
+  #inspector{
+    width:300px;
+  }
+
+  #inspector .type-title {
+    font-size:18px;
+  }
+
+  #newElementWindow {
+    width:250px;
+    position: absolute !important;
+    top: 40%;
+    left: 40%;
+  }
+
+  #newElementWindow .type-title {
+    font-size:18px;
+  }
+  
+  /* Remove margins and padding from the parent ul */
+  .treeviewContainer {
+    margin: 5px;
+    padding: 0;
+    background-color: white;
+    border: solid 1px black;
+    overflow-x: auto;
+    overflow-y: auto;
+  }
+
+  
+  /* Style the caret/arrow */
+  .itemTitle {
+    cursor: pointer;
+    user-select: none; /* Prevent text selection */
+  }
+  
+  /* Hide the nested list */
+  .collapsed {
+    display: none;
+  }
+  
+  /* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
+  .expanded {
+    display: block;
+  }
+
+  .listItem {
+    padding-left: 38px;
+    margin:0px;
+    padding-top:2px;
+    padding-bottom:2px;
+  }
+
+  .expandable {
+    padding-left: 20px;
+
+  }
+
+  .expandButton {
+    padding:0px;
+    width:15px;
+    height:15px;
+  }
+
+  
+  .selectedElement {
+    background-color: yellow;
+    border: dotted 1px black;
+    color: black;
+  }
+
+  .openedElement {
+    background-color: blue;
+    color: white;
+  }
+  
+  .loadButton {
+    padding:0px;
+    width:20px;
+    height:20px;
+  }
+
+  .overlay {
+    height: 100vh; /* 100% of the viewport height */
+    width: 100%;   /* 100% of the parent's width, in this case, the viewport */
+    background-color: rgba(64,128,255,0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .preview {
+    width: 80%;
+  }
+
+  .draggingOver {
+    background-color:aliceblue;
+    border: solid 1px cadetblue;
+  }
+  
+  .noDraggingOver {
+    background-color:rgb(255, 240, 240);
+    border: solid 1px rgb(160, 95, 95);
+  }

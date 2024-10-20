@@ -1,0 +1,13 @@
+Secretary Day!
+Journal
+Started on 20/10/2024
+
+20/10/2024 19:43
+Today is a Secretary Day!
+
+- Copied "GovernApp" ass base, which is a more advanced copy of "WindOS"
+- Translated a few comments, in order from index.html
+- Changed the name of the main apps, not yet modified any content
+- Imported the W98 relevant assets from cosasCreator, to consider as a style base instead of the propietary one
+- Added a TestProgram to test windows as iframes
+- Will push to new repository
